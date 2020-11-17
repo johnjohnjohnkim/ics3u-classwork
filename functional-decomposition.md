@@ -1,7 +1,8 @@
 # Functional Decomposition
 
-## Vending machine from a human perspective
-----------------------------------------
+## Getting food from a vending machine
+
+### Vending machine from a human perspective
 
 You get a bag of chips from a vending machine
 - Approach machine
