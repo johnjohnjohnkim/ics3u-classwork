@@ -10,3 +10,14 @@ numberpack = int(input("How many packs do you have?: "))
 totalcan = caninpack * numberpack
 
 print(f"The total number of cans are: {totalcan}")
+
+3. Volume 
+
+## Ask the user for the three dimensions of a rectangular prism. Output the volume.
+
+length = int(input("Length: "))
+width = int(input("Width: "))
+height = int(input("Height: "))
+volume = length * width * height
+
+print(f"\nYour volume of the rectangle prism is: {volume} cm^3")
