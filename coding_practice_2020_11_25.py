@@ -156,3 +156,59 @@ elif month == "December":
 
 else:
     print("This month does not have a holiday with fixed date.")
+
+Exercise 45
+
+letter = input("What is the letter on the horizontal axis?: ")
+
+if letter == "a" or letter == "c" or letter == "e" or letter == "g":
+    number = int(input("What is the letter on the vertical axis?: "))
+    if (number % 2) == 0:
+            print("The colour of your square is white")
+    elif number > 8:
+            print("Error, please try again")
+    else:
+            print("The colour of your square is black")
+
+if letter == "b" or letter == "d" or letter == "f" or letter == "h":
+    number = int(input("What is the letter on the vertical axis?: "))
+    if (number % 2) == 0:
+            print("The colour of your square is black")
+    elif number > 8:
+            print("Error, please try again")
+    else:
+            print("The colour of your square is white")
+            
+Exercise 46
+
+month = input("Enter name of month: ")
+day = int(input("Enter the day of month: "))
+
+if month == "January" or month == "February":
+    season = "Winter"
+elif month == "March":
+    if day < 20:
+        season = "Winter"
+    else:
+        season = "Spring"
+if  month == "April" or month == "May":
+    season = "Spring"
+elif month == "June":
+    if day < 21:
+        season = "Spring"
+    else:
+        season = "Summer"
+if month == "July" or month == "August":
+    season = Summer
+elif month == "September":
+    if day < 22:
+        season = "Summer"
+    else:
+        season = "Fall"
+if month == "October" or month == "November":
+    season = "Fall"
+elif month == "December":
+    if day < 21:
+        season = "Winter"
+
+print(month, day, "is in", season)
